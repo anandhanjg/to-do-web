@@ -91,3 +91,9 @@ function deleteCrossedData(e){
 var listDiv=document.querySelector('.task-list');
 document.querySelector('#input-form').addEventListener('submit',addData);
 
+document.querySelector('#btn-download').addEventListener('click',()=>{
+    var a=document.createElement('a');
+    a.href='https://github.com/anandhanjg/to-do-web/archive/refs/heads/main.zip'
+    a.download="to-do-web.zip"
+    a.click();
+});
