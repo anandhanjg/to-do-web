@@ -82,6 +82,28 @@ button:hover{
     cursor: pointer;
 }
 
+#btn-add,#btn-reset,#btn-download{
+    height: 25px; 
+}
+
+#btn-add{
+    background-color: #0000ff; 
+    color: #ffffff; 
+    border-color: #0000ff;
+}
+
+#btn-reset{
+    background-color: #808080; 
+    color: #ffffff; 
+    border-color: #808080;
+}
+
+#btn-download{
+    background-color: #741cee; 
+    color: #ffffff; 
+    border-color: #741cee;
+}
+
 
 
 
